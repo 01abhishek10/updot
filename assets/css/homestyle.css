@@ -515,6 +515,9 @@ background: #fff;
       font-weight: 520;
       font-size: 1.8rem !important;
     }
+    .news .col-lg-6 {
+      margin-bottom: 73px;
+    }
     /* .footer {
       margin-top: 56px;
     } */
@@ -536,7 +539,7 @@ background: #fff;
     }
     .accessrare {
       width: 30%;
-      margin-top: 80px;
+      margin-top: 105px;
       margin-left: 100px;
     }
     .footer p {
