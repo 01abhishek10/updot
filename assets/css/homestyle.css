@@ -515,7 +515,7 @@ background: #fff;
       font-weight: 520;
       font-size: 1.8rem !important;
     }
-    .news .col-lg-6 {
+    .footer .col-lg-6 {
       margin-bottom: 73px;
     }
     /* .footer {
@@ -543,8 +543,8 @@ background: #fff;
       margin-left: 100px;
     }
     .footer p {
-      margin-top: 20px;
-      margin-left: 100px;
+      margin-top: 56px;
+      margin-bottom: 84px;
     }
     .footer-btn {
       text-decoration: none;
