@@ -10,8 +10,17 @@
 
  body {
   font-family: 'Poppins', sans-serif;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
 .menu-checkbox {
   width: 0;
   height: 0;
@@ -27,9 +36,9 @@
     font-size: 1.2rem;
     text-transform: uppercase; 
 }
-/* .hamburger-menu__ctrl {
+.hamburger-menu__ctrl {
     margin: 0 0 0 auto; 
-} */
+}
 .hamburger-menu__ctrl--button {
       background-image: url('../img/home/Menu/Ellipse\ 653.png');
       background-size: contain;
@@ -232,6 +241,11 @@
       margin-right: 500px;
     }
 
+    .big-middle {
+      background: #fbfbfd;
+    margin-left: 46px;
+    margin-right: 51px;
+    }
     .who-we-are {
       margin-top: 50px;
     }
@@ -266,6 +280,12 @@
     .who-we-are .mission, .who-we-are .vision {
       padding-left: 86px;
     }
+    .who-we-are .overlay-circle {
+      width: 74%;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 35%;
+    }
 
     .our-values {
       margin-top: 90px;
@@ -294,6 +314,7 @@
       padding-top: 16px;
       padding-left: 57px;
       padding-bottom: 43px;
+      font-weight: bold;
       font-size: 1.2rem !important;
     }
     .our-values .hr-row {
@@ -328,7 +349,7 @@
       width: 50%;
     }
     .patient-support {
-      margin-top: 41px;
+      margin-top: 81px;
     }
     .patient-support .row {
         background-size: contain;
@@ -387,7 +408,7 @@
       margin-top: 20px;
     }
     .area-of-focus {
-      margin-top: 122px;
+      margin-top: 203px;
       margin-left:20px;
     }
     .area-of-focus h1 {
@@ -399,8 +420,9 @@
       background-color: #fbfbfd;
       padding-bottom: 150px;
 background-size: 63%;
-background-position: 39% 378px;
+background-position: 16% 378px;
 background-repeat: no-repeat;
+padding-top: 37px;
     }
     .area-of-focus .left-text {
       padding-left: 101px;
@@ -422,19 +444,28 @@ background-size: 25%;
       font-weight: 520;
     }
     .partnerships{
-      background-repeat: no-repeat;
-      background-size: 50%;
-      background-position: 258px -56px;
-      margin-top: 88px;
+     background-repeat: no-repeat;
+    background-size: 93% 105%;
+    background-position: 81px 0px;
+    padding-top: 185px;
+    padding-bottom: 6px;
+    }
+    .mainImg {
+      max-width: 100%;
+    height: 83vh;
+    margin-top: 119px;
     }
     .partnerships .partner-icon {
-      width: 37%;
+      width: 18%;
 text-align: center;
 margin-right: auto;
 margin-left: auto;
+background: #fff;
+    border-radius: 0% 0% 48% 45%;
+    padding-bottom: 20px;
     }
     .partnerships .big-text {
-      margin-top:15px;
+      margin-top:21px;
       text-align:center;
       margin-bottom: 20px;
     }
@@ -484,9 +515,9 @@ margin-left: auto;
       font-weight: 520;
       font-size: 1.8rem !important;
     }
-    .footer {
+    /* .footer {
       margin-top: 56px;
-    }
+    } */
     .footer .bg-image {
       background-size: cover;
       background-repeat: no-repeat;
