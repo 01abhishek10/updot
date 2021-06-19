@@ -158,7 +158,7 @@ scrollbar-width: none;  /* Firefox */
   .big-circle {
     width: 66%;
     margin-top: 0%;
-    margin-left: -19%;
+    margin-left: -24%;
     position: absolute;
   }
   .our-story img {
@@ -170,7 +170,7 @@ scrollbar-width: none;  /* Firefox */
   }
   .opening-header video {
     width: 75%;
-    margin-left: 34%;
+    margin-left: 27%;
     margin-top: -29px;
   }
   .big-middle .mainImg {
@@ -291,7 +291,7 @@ scrollbar-width: none;  /* Firefox */
     color: #3a9efc;
     /* padding-top: 16px; */
     /* margin-bottom: 20px; */
-    padding-left: 30px;
+    padding-left: 20px;
     font-weight: bold;
     font-size: 0.6rem !important;
   }
@@ -546,12 +546,12 @@ scrollbar-width: none;  /* Firefox */
     margin-bottom: 184px;
   }
   .footer .footer-line{
-    height: 269px;
+    height: 200px;
     width: 1%;
-    margin-left:43px;
-    margin-top: -63px;
-  }
-  .footer .bg-image{
+    margin-left: 43px;
+    margin-top: -140px;
+  } 
+    .footer .bg-image{
     background-image: url('../img/home/footer/mobile-footer.png');
   }
   .footer .container-fluid {
@@ -582,11 +582,19 @@ scrollbar-width: none;  /* Firefox */
     color: #0e74d0;
   }
   .footer .bg-second .col-lg-4 {
-    margin-top: 17px;
+    margin-top: 44px;
   }
   .footer .social {
     color: #3a9efc;
     font-weight: bold;
+  }
+  .our-values .one h6{
+    border-bottom: 1px solid #3a9efc;
+    padding-bottom: 28px;
+  }
+  .our-values .two h6 {
+    border-bottom: 1px solid #3a9efc;
+    padding-bottom: 17px;
   }
 }
 
