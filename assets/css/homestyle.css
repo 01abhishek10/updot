@@ -86,14 +86,14 @@ scrollbar-width: none;  /* Firefox */
       padding: 0;
       margin: 0;
       list-style: none; 
+      margin-left: 83px;
 }
 .menu_content__items ul li a {
-        display: inline-block;
         font-size: 1.5rem;
         font-weight: 520;
         color: #0e74d0;
         text-decoration: none;
-        line-height: 5rem;
+        line-height: 4rem;
         transition: all 200ms linear; 
 }
 .menu_content__items ul.sub-list li a {
@@ -311,7 +311,7 @@ scrollbar-width: none;  /* Firefox */
     margin-top: 19px;
   }
   .what-we-do {
-    margin-top: 40px;
+    padding-top: 40px;
   }
   .what-we-do h1 {
     color: #872087;
@@ -518,12 +518,18 @@ scrollbar-width: none;  /* Firefox */
     margin-bottom: 103px;
   }
   .footer .bg-image {
+    margin-left:0px;
+    margin-right: 0px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
   .footer .bg-image img {
     margin-top: 47px;
     margin-left: 23px;
+  }
+  .footer .bg-second {
+    margin-left:0px;
+    margin-right:0px;
   }
   .footer .tag-line {
     font-size: 0.8rem;
@@ -600,6 +606,29 @@ scrollbar-width: none;  /* Firefox */
 
 
 @media (min-width:992px){
+  /* .menu_content__items ul {
+    margin-left: 150px;
+  }
+  .menu_content__items .col.mx-3 ul {
+    margin-left: 0px;
+  }
+  .menu_content__items .social-icons {
+    margin-right: 5px;
+  } */
+  .sub-text {
+    font-weight: normal !important;
+    color: #872087 !important;
+    font-size: 1.2rem !important;
+    display: block;
+    line-height: 1.5rem !important;
+    margin-left: 15px;
+    border-left: 2px solid white;
+    padding-left: 11px;
+    padding-bottom: 7px;
+  }
+  .sub-text:hover {
+    color: #0e74d0;
+  }
   .footer .social-icons {
     width: 4%;
     margin-left: 5px;
@@ -627,9 +656,9 @@ scrollbar-width: none;  /* Firefox */
       margin-left: 25px;
     }
     .main-logo img {
-        width: 50%;
-        margin-left: 50px;
-        margin-top: 20px;
+      width: 47%;
+    margin-left: 88px;
+    margin-top: 37px;
     }
     .hamburger-menu__ctrl--button {
     padding-left: 39px;
