@@ -739,11 +739,39 @@ body {
     margin-top: 170px;
   }
   .taiba-logo {
+    z-index: 99;
     padding-left: 34px;
     margin-top:26px;
   }
   .taiba-logo img {
     width:20%;
+  }
+  .taiba-healthcare {
+    overflow-y: hidden;
+  }
+  .taiba-healthcare .taiba-logo {
+    margin-top: -115%;
+  }
+  .taiba-healthcare .taiba-logo img {
+    margin-top:-200%;
+  }
+  .taiba-healthcare .main-logo {
+    width: 100%;
+    margin-top: -58%;
+  }
+  .taiba-healthcare .button {
+    width: 50%;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 13px;
+    margin-right: 34%;
+    background-color: #872087;
+    margin-left: auto;
+    margin-right: auto;
   }
   .kid-doctor {
     background-size: 127%;
@@ -753,6 +781,11 @@ body {
     width: 50%;
   }
   .taiba-access-rare{
+    position: relative;
+    height: 100vh;
+  }
+  .main-pink-image {
+    background-size: contain;
     height: 100vh;
   }
 
@@ -821,30 +854,39 @@ body {
     position: absolute;
   }
   .taiba-healthcare .main-text {
+    text-align: center;
     display: flex;
     justify-content: center;
-    margin-left: 39%;
-    margin-right: 24%;
-    font-size: 12pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 10pt;
     color: #fff !important;
   }
 
   .taiba-healthcare .button {
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 10px;
     color: #872087;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 18px;
+    padding-left: 15px;
     padding-right: 13px;
-    margin-left: 39%;
-    margin-right: 32%;
+    margin-left: 26%;
+    margin-right: auto;
     background-color: #a8e2fb;
   }
   .taiba-healthcare .button img {
     width: 57px;
     padding-left: 10px;
     color: #872087;
+  }
+  .family-image {
+      background-size: 127%;
+      background-repeat: no-repeat;
+  }
+  .taiba-healthcare {
+    position: relative;
+    height: 100vh;
   }
 }
 
