@@ -164,6 +164,11 @@ scrollbar-width: none;  /* Firefox */
 /*# sourceMappingURL=homestyle.css.map */
 
 @media (max-width: 575.98px) {
+  .mob-play {
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 8%;
+  }
   .menu_content__items ul {
     margin-left: 46px;
     margin-top: -77px;
@@ -227,6 +232,7 @@ scrollbar-width: none;  /* Firefox */
   }
   .menu_content .social-icons {
     margin-right:5px;
+    width: 5%;
   }
   .menu_content .social {
     margin-top: 148px;
@@ -441,7 +447,7 @@ scrollbar-width: none;  /* Firefox */
     margin-top: 30px;
   }
   .what-we-do .col-lg-3 img {
-    width: 71%;
+    width: 61%;
   }
   .what-we-do .read-more {
     font-size: 0.7rem;
@@ -581,6 +587,7 @@ scrollbar-width: none;  /* Firefox */
     font-size: 0.6rem;
   }
   .news {
+    margin-top: 49px;
     background-color: #fbfbfd;
     margin-right:0px;
     margin-left:0px;
@@ -705,7 +712,11 @@ scrollbar-width: none;  /* Firefox */
   }
   .footer .bg-second .col-lg-4 {
     margin-top: 44px;
-    margin-bottom: 63px;
+  }
+  .copyright {
+    margin-top: 19px;
+    color: #0e74d0;
+    margin-left: 125px;
   }
   .footer .social {
     color: #3a9efc;
@@ -743,9 +754,19 @@ scrollbar-width: none;  /* Firefox */
     height:50%;
   }
 }
-
+.copyright {
+  color: #fff;
+}
 @media (min-width:992px){
-  
+  .copyright {
+    margin-bottom:10px !important;
+    margin-top:10px !important;
+  }
+  .desk-play {
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 15%;
+  }
   .mfp-close {
     font-size:  43px;
     color: #FFF;
@@ -804,6 +825,7 @@ scrollbar-width: none;  /* Firefox */
   }
   .menu_content__items .social-icons {
     margin-right:5px;
+    width: 5%;
     
   }
   .menu_content__items ul li a:hover {
