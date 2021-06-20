@@ -800,6 +800,7 @@ body {
     text-align: center;
   }
   .taiba-access-rare .button {
+    z-index: 99999;
     width: 50%;
     text-decoration: none;
     border-radius: 10px;
