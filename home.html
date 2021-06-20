@@ -21,7 +21,7 @@
 </head>
 <body>
    <section class="navigation">
-    <nav class="navbar navbar-light">
+    <nav class="navbar navbar-light" id="main-nav">
       <div class="container-fluid px-0">
         <a class="navbar-brand main-logo" href="#"><img src="assets/img/home/Menu/LOGO_.png"></a>
         <input type="checkbox" id="menustate" class="menu-checkbox">
@@ -38,7 +38,13 @@
           <div class="menu_content__items">
             <div class="row ">
               <div class="col mx-5">
-                <ul>
+                <p style="margin-top: 50px;" class="social">FOLLOW US&nbsp;&nbsp;
+                    <a href="#"><img src="assets/img/home/footer/LINKEDIN.png" alt="" class="social-icons"></a>
+                    <a href="#"><img src="assets/img/home/footer/TWITTER_.png" alt="" class="social-icons"></a>
+                    <a href="#"><img src="assets/img/home/footer/FB_.png" alt="" class="social-icons"></a>
+                    <a href="#"><img src="assets/img/home/footer/IG_.png" alt="" class="social-icons"></a>
+                  </p>
+                <ul class="first-section">
                   <li>
                     <h6><a href="#">WHO WE ARE</a></h6>
                           <a href="#" class="sub-text">Our Story</a>
@@ -75,11 +81,17 @@
                   </li>
                   <li>
                     <h6><a href="#">CONNECT</a></h6>
+                    
                   </li> 
                 </ul>
+                
               </div>
               <div class="col mx-3">
                 <a class="navbar-brand main-logo pt-3" href="#"><img src="assets/img/accessrare.png"></a>
+                <img src="assets/img/PATTERN_.png" alt="" class="menu-pattern">
+                <a href="#" class="menu-btn">Visit Taiba HealthCare<img src="assets/img/png/ARROW_.png">  </a>
+                
+                
               </div>
             </div>
           
@@ -421,11 +433,29 @@
    <script> 
     var vid = document.getElementById("myVideo"); 
     var flag = 0;
-    vid.onclick = playVid();
+    window.onload = playVid();
     
     
     function playVid() { 
       console.log("coming here");
+      var ele = document.querySelector(".hamburger-menu__ctrl--button");
+      
+      var flag = 0;
+      ele.onclick = function() {
+        
+        var x = document.getElementById("main-nav");
+        x.classList.add('fixed-top');
+        if(flag===0){
+          console.log('menu');
+          flag = 1;
+        }
+        else {
+          x.classList.remove('fixed-top');
+          flag = 0;
+          console.log('no-menu')
+        }
+      };
+      
       if(flag === 0){
         vid.play(); 
       vid.currentTime += 16;
@@ -435,7 +465,7 @@
       else {
         vid.pause();
       }
-    } 
+    }; 
     
     function pauseVid() { 
       if(flag === 1){
@@ -445,7 +475,8 @@
       else {
         vid.play();
       }
-    } 
+      } 
+      
     </script> 
    <!-- bootstrap js cdn link-->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

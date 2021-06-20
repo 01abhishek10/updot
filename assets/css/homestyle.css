@@ -134,6 +134,20 @@ scrollbar-width: none;  /* Firefox */
 /*# sourceMappingURL=homestyle.css.map */
 
 @media (max-width: 575.98px) {
+  .menu_content {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: #a8e2fb;
+    opacity: 0;
+    display: block;
+    margin-top: 0;
+    transition: all 50ms ease-in-out; 
+  
+  }
   .navbar-brand {
     width: 50%;
   } 
@@ -606,10 +620,47 @@ scrollbar-width: none;  /* Firefox */
 
 
 @media (min-width:992px){
-  /* .menu_content__items ul {
-    margin-left: 150px;
+  .menu-btn {
+    margin-left: 64px;
+    margin-top: -8%;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    background-color: #872087;
+    display: block;
+    position: absolute;
+    color: #fff;
+    padding-left: 34px;
+    border-radius: 0px 0px 0px 89px;
+    font-size: 1rem;
+    padding-right: 51px;
   }
-  .menu_content__items .col.mx-3 ul {
+  .menu-btn img {
+    width: 15%;
+    margin-left: 10px;
+  }
+  .menu-pattern {
+    width: 274%;
+    height: 117%;
+    margin-left: -169%;
+    margin-top: -33%;
+  }
+   .menu_content__items .first-section {
+    margin-top: -77px;
+  }
+  .menu_content__items .social {
+    margin-top: 50px;
+    margin-left:50px;
+    color: #0e74d0;
+  }
+  .menu_content__items .social-icons {
+    margin-right:5px;
+    
+  }
+  .menu_content__items ul li a:hover {
+    color: #fff;
+  }
+  /*.menu_content__items .col.mx-3 ul {
     margin-left: 0px;
   }
   .menu_content__items .social-icons {
@@ -627,7 +678,7 @@ scrollbar-width: none;  /* Firefox */
     padding-bottom: 7px;
   }
   .sub-text:hover {
-    color: #0e74d0;
+    color: #0e74d0 !important;
   }
   .footer .social-icons {
     width: 4%;
