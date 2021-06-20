@@ -239,7 +239,7 @@
        <div class="row first">
         <div class="col-lg-6 sheik-mobile">
           <img src="assets/img/home/Who we are/CIRCLE 1.png" alt="" class="who-circle sheik-mobile">
-          <img src="assets/img/home/what we do/Screen Shot 2021-05-31 at 3.49.39 PM.png" alt="" class="mainImg">
+          <a href="https://www.youtube.com/watch?v=pZAs0cNxBz8" class="popup-youtube"><img src="assets/img/home/what we do/Screen Shot 2021-05-31 at 3.49.39 PM.png" alt="" class="mainImg"></a>
          <!-- <video id="myVideo" onclick="playVid();">
            <source src="assets/img/home/Who we are/final draft (without coloring) (1).mp4" type="video/mp4">
          </video> -->
@@ -275,7 +275,7 @@
             </div>
          </div>
          <div class="col-lg-6 sheik-desktop">
-           <img src="assets/img/home/what we do/Screen Shot 2021-05-31 at 3.49.39 PM.png" alt="" class="mainImg">
+           <a href="https://www.youtube.com/watch?v=pZAs0cNxBz8" class="popup-youtube"><img src="assets/img/home/what we do/Screen Shot 2021-05-31 at 3.49.39 PM.png" alt="" class="mainImg"></a>
           <!-- <video id="myVideo" onclick="playVid();">
             <source src="assets/img/home/Who we are/final draft (without coloring) (1).mp4" type="video/mp4">
           </video> -->
@@ -499,9 +499,22 @@
        </div>
      </div>
    </section>
+   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
    <script> 
-    var vid = document.getElementById("myVideo"); 
-    var flag = 0;
+   $(document).ready(function($) {
+  console.log('modal');
+  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+    disableOn: 700,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+
+    fixedContentPos: false
+  });
+});
+
     window.onload = playVid();
     
     
@@ -524,34 +537,14 @@
           console.log('no-menu')
         }
       };
-      
-      if(flag === 0){
-        vid.play(); 
-      vid.currentTime += 16;
-      
-      flag = 1;
-      }
-      else {
-        vid.pause();
-      }
-    }; 
+    };       
+
     
-    function pauseVid() { 
-      if(flag === 1){
-      vid.pause(); 
-      flag = 1;
-      }
-      else {
-        vid.play();
-      }
-      } 
-      
     </script> 
    <!-- bootstrap js cdn link-->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
    <!-- jquery cdn link -->
-   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 
    <!-- aos library js cdn link -->
    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
