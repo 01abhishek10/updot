@@ -781,6 +781,7 @@ body {
     width: 50%;
   }
   .taiba-access-rare{
+    background-color: #a8e2fb;
     position: relative;
     height: 100vh;
   }
@@ -794,7 +795,7 @@ body {
     justify-content: center;
     margin-right: 10%;
     font-size: 10pt;
-    color: #a8e2fb;
+    color: #0163bd;
     margin-top: -68px;
     text-align: center;
   }
@@ -885,6 +886,7 @@ body {
       background-repeat: no-repeat;
   }
   .taiba-healthcare {
+    background-color: #872087;
     position: relative;
     height: 100vh;
   }
