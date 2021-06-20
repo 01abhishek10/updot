@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAIBA | HOME</title>
+
+  <!-- bootstrap cdn links -->
+
+    <!--poppins extrabold  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet"> 
+       <!-- CSS only -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+       <!-- custom css stylesheet -->
+       <link rel="stylesheet" href="assets/css/whatwedo.css">
+      <!-- aos library cdn link -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <section class="navigation">
+    <nav class="navbar navbar-light" id="main-nav">
+      <div class="container-fluid px-0">
+        <a class="navbar-brand main-logo" href="#"><img src="assets/img/home/Menu/LOGO_.png"></a>
+        <input type="checkbox" id="menustate" class="menu-checkbox">
+          <div class="hamburger-menu">
+            <label class="hamburger-menu__ctrl" for="menustate" id="menulabel">
+              <div class="hamburger-menu__ctrl--button">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </label>
+          </div>
+        <div class="menu_content no-scrollbar">
+          <div class="menu_content__items">
+            <div class="row ">
+              <div class="col mx-5">
+                <p style="margin-top: 50px;" class="social">FOLLOW US&nbsp;&nbsp;
+                    <a href="#"><img src="assets/img/home/footer/LINKEDIN.png" alt="" class="social-icons"></a>
+                    <a href="#"><img src="assets/img/home/footer/TWITTER_.png" alt="" class="social-icons"></a>
+                    <a href="#"><img src="assets/img/home/footer/FB_.png" alt="" class="social-icons"></a>
+                    <a href="#"><img src="assets/img/home/footer/IG_.png" alt="" class="social-icons"></a>
+                  </p>
+                <ul class="first-section">
+                  <li>
+                    <h6><a href="#">WHO WE ARE</a></h6>
+                          <a href="#" class="sub-text">Our Story</a>
+                       
+                          <a href="#" class="sub-text">Letter from Our CEO</a>
+                        
+                          <a href="#" class="sub-text">Our People</a>
+                        
+                  </li>
+                  <li>
+                    <h6><a href="#">WHAT WE DO</a></h6>
+                  </li>
+                  <li>
+                    <h6><a href="#">PATIENT SUPPORT</a></h6>
+                  </li>
+                  <li>
+                    <h6><a href="#">AREA OF FOCUS</a></h6>
+                    <a href="#" class="sub-text">Our People</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col mx-3">
+                <ul>
+                  <li>
+                    <h6><a href="#">PARTNERSHIPS</a></h6>
+                    <a href="#" class="sub-text">Partnering with Taiba</a>
+                    <a href="#" class="sub-text">Our Areas of Interest</a>
+                    <a href="#" class="sub-text">Partnership forms</a>
+                    <a href="#" class="sub-text">Why Partner with Taiba?</a>
+                  </li>
+                  <li>
+                    <h6><a href="#">NEWS</a></h6>
+                    <a href="#" class="sub-text">Events & Announcements</a>
+                  </li>
+                  <li>
+                    <h6><a href="#">CONNECT</a></h6>
+                    
+                  </li> 
+                </ul>    
+              </div>
+              <div class="col mx-3">
+                <a class="navbar-brand main-logo pt-3" href="#"><img src="assets/img/accessrare.png"></a>
+                <img src="assets/img/PATTERN_.png" alt="" class="menu-pattern">
+                <a href="#" class="menu-btn">Visit Taiba HealthCare<img src="assets/img/png/ARROW_.png">  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+   </section>
+
+   <section class="whatwedo">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+              <h1 class="main-title">WHAT WE DO</h1>
+          </div>
+          <div class="col-lg-6 second" >
+              <img src="assets/img/What we do 2/other/patterndna.png" alt="" class="main-pattern">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row early-access">
+            <div class="col-lg-4">
+              <img src="assets/img/What we do 2/Early access/earlyaccessicon.png" alt="" class="ea-icon">
+            </div>
+            <div class="col-lg-8">
+                <h2>EARLY ACCESS PROGRAMS</h2>
+                <p>Helping patients access our medicines is our number one priority. It aligns with being patient-focused and committed to pursuing approaches 
+                  to ensure access to rare, orphan medicines and speciality medicines across all Middle East and North African countries. As pioneers in early
+                   access/name patient sales programs with more than 20 years of experience, we apply our expertise to address barriers and provide access solutions.
+                    We use the NPS program to give early access to patients with unmet medical needs, and we commit to playing our role in this process. 
+                    We work with stakeholders to help people who are eligible to access our medicines. We contribute to the health care system through collaborations with stakeholders 
+                    and local communities for formulary inclusions, disease awareness and faster diagnoses. In GCC countries, nationals have free access to healthcare, and our role is 
+                    to improve access and overcome the barriers. We deal with each partnership as a unique approach through managing logistics for individual patients or implementing a
+                     strategy for hospital patients.</p>
+            </div>
+        </div>
+      </div>
+   </section>
+</body>
+<script> 
+    var vid = document.getElementById("myVideo"); 
+    var flag = 0;
+    window.onload = playVid();
+    
+    
+    function playVid() { 
+      console.log("coming here");
+      var ele = document.querySelector(".hamburger-menu__ctrl--button");
+      
+      var flag = 0;
+      ele.onclick = function() {
+        
+        var x = document.getElementById("main-nav");
+        x.classList.add('fixed-top');
+        if(flag===0){
+          console.log('menu');
+          flag = 1;
+        }
+        else {
+          x.classList.remove('fixed-top');
+          flag = 0;
+          console.log('no-menu')
+        }
+      };
+      
+      if(flag === 0){
+        vid.play(); 
+      vid.currentTime += 16;
+      
+      flag = 1;
+      }
+      else {
+        vid.pause();
+      }
+    }; 
+    
+    function pauseVid() { 
+      if(flag === 1){
+      vid.pause(); 
+      flag = 1;
+      }
+      else {
+        vid.play();
+      }
+      } 
+      
+    </script> 
+   <!-- bootstrap js cdn link-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+   <!-- jquery cdn link -->
+   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+   <!-- aos library js cdn link -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+</html>

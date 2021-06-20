@@ -134,6 +134,15 @@ scrollbar-width: none;  /* Firefox */
 /*# sourceMappingURL=homestyle.css.map */
 
 @media (max-width: 575.98px) {
+  .menu_content__items ul {
+    margin-left: 46px;
+    margin-top: -77px;
+  }
+  .menu_content .navbar-brand img {
+    width: 58%;
+    padding-left: 29px;
+    margin-top: 54px;
+  }
   .menu_content {
     position: fixed;
     overflow: hidden;
@@ -147,6 +156,61 @@ scrollbar-width: none;  /* Firefox */
     margin-top: 0;
     transition: all 50ms ease-in-out; 
   
+  }
+  .menu_content .menu-btn {
+    text-decoration: none;
+    margin-left: 161px;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #870284;
+    padding-left: 22px;
+    border-radius: 0px 0px 0px 31px;
+    font-size: 0.6rem;
+    padding-right: 59px;
+
+    margin-top: 604px;
+    position: absolute;
+    z-index: 99;
+  }
+  .menu_content .menu-btn img {
+    width: 8%;
+  }
+  .menu_content .menu-pattern {
+    width: 540%;
+    margin-top: -610%;
+    margin-left: -141%;
+    /* width: 96%;
+    margin-top: -158%;
+    margin-left: 2%; */
+  }
+  .menu_content .sub-text {
+    font-weight: normal !important;
+    color: #872087 !important;
+    font-size: 0.8rem !important;
+    display: block;
+    line-height: 1rem !important;
+    margin-left: 15px;
+    border-left: 2px solid white;
+    padding-left: 11px;
+    padding-bottom: 7px;
+  }
+  .menu_content .social-icons {
+    margin-right:5px;
+  }
+  .menu_content .social {
+    margin-top: 148px;
+    margin-left: 39px;
+  }
+  .menu_content .sub-text:hover {
+    color: #0e74d0 !important;
+  }
+  .menu_content__items ul li a{
+    font-size: 1.2rem;
+    font-weight: 520;
+    color: #0e74d0;
+    text-decoration: none;
+    line-height: 3rem;
   }
   .navbar-brand {
     width: 50%;
@@ -216,7 +280,7 @@ scrollbar-width: none;  /* Firefox */
   }
   .our-story #carouselExampleControls {
     background-image: url(../img/home/our\ story/rect.png);
-    margin-top: -48%;
+    margin-top: -39%;
     width: 73%;
     margin-left: 78px;
   }
@@ -314,7 +378,7 @@ scrollbar-width: none;  /* Firefox */
     height: 20px;
   }
   .our-values.first {
-    margin-top:79px;
+    padding-top:79px;
   }
   
   .our-values .col.two h6 {
@@ -343,14 +407,19 @@ scrollbar-width: none;  /* Firefox */
     text-align: center;
     width: 50%;
   }
+  .what-we-do .col-lg-3.first, .col-lg-3.second {
+    margin-top: 30px;
+  }
   .what-we-do .col-lg-3 img {
-    width: 92%;
+    width: 71%;
   }
   .what-we-do .read-more {
+    font-size: 0.7rem;
     color: #872087;
     margin-top: 59px;
     text-decoration: none;
     text-align: center;
+    padding-bottom:41px;
   }
   .patient-support .col-lg-6{
     width: 50%;
@@ -401,7 +470,7 @@ scrollbar-width: none;  /* Firefox */
       border-radius: 50px;
   }
   .area-of-focus .right-img {
-    background-position: 99% 31%;
+    background-position: 99% 1%;
     background-color: #fbfbfd;
     background-repeat: no-repeat;
     background-size: 29%;
@@ -413,14 +482,14 @@ scrollbar-width: none;  /* Firefox */
       text-align: center;
   }
   .area-of-focus .right-img {
-    padding-top:50px;
+    padding-top:11px;
   }
   .area-of-focus p {
     font-size: 0.6rem;
     color: #747474;
   }
   .area-of-focus {
-    margin-top: 125px;
+    margin-top: 193px;
   }
   .area-of-focus .left-text {
     padding-left: 26px;
@@ -444,6 +513,8 @@ scrollbar-width: none;  /* Firefox */
     width: 90%;
     margin-left: 15px;
     margin-bottom: 48px;
+    margin-top: -79px;
+    padding-top: 11px;
 
   }
   .partnerships {
@@ -460,8 +531,8 @@ scrollbar-width: none;  /* Firefox */
     margin-right: unset;
   }
   .partnerships .partner-icon {
-    margin-left:30%;
-    width: 50%;
+    margin-left: 36%;
+    width: 41%;
   }
   .partnerships .big-text {
     color: #b2e9fb;
@@ -483,6 +554,7 @@ scrollbar-width: none;  /* Firefox */
     background-color: #fbfbfd;
     margin-right:0px;
     margin-left:0px;
+    padding-top: 78px;
   }
   .news .sheik-mobile {
     margin-top: 50px;
@@ -603,6 +675,7 @@ scrollbar-width: none;  /* Firefox */
   }
   .footer .bg-second .col-lg-4 {
     margin-top: 44px;
+    margin-bottom: 63px;
   }
   .footer .social {
     color: #3a9efc;
