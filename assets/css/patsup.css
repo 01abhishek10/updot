@@ -381,8 +381,11 @@ p {
           margin-top: 32%;
           margin-left: 21%;
         }
+        .footer .social {
+          color: #0C73CF;
+        }
         .footer .social-icons {
-            width: 4%;
+            width: 3%;
             margin-left: 5px;
             margin-right: 5px;
           }
@@ -417,7 +420,7 @@ p {
       padding-bottom: 6px;
       padding-left: 80px;
       padding-right: 85px;
-      margin-left: 100px;
+      margin-left: 80px;
       background-color: #a8e2fb;
       color: #872087;
       border-radius: 0px 34px 0px 34px;
@@ -454,6 +457,7 @@ p {
           margin-left: 104px;
         }
         .bg-second .col-lg-4 {
+          padding-left: 135px;
           margin-top: 40px;
     margin-bottom: 22px;
         }
