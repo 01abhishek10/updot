@@ -353,6 +353,10 @@ p {
         .first-banner h2 {
           margin-top: 32%;
           margin-left: 25%;
+          color: #747474;
+        }
+        .second-banner h2, .third-banner h2 {
+          color: #747474;
         }
         .first-ban {
           max-width: 100%;
