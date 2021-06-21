@@ -302,6 +302,7 @@ p {
         }
         .access .container {
             background-color:  #fbfbfd;
+            padding-bottom: 110px;
         }
         .access .first {
             padding-top: 50px;
@@ -346,7 +347,7 @@ p {
           font-weight: 520;
         }
         .first-banner {
-            margin-top:170px;
+            margin-top:150px;
             margin-bottom: 50px;
         }
         .first-banner h2 {
