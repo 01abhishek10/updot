@@ -295,6 +295,11 @@ p {
             margin-top:80px;
             margin-bottom: 80px;
         }
+        .access h2 {
+          font-size: 15pt;
+          font-weight: 520;
+          color: #872087;
+        }
         .access .container {
             background-color:  #fbfbfd;
         }
