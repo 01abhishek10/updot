@@ -255,9 +255,17 @@ p {
             margin-bottom:80px;
            
         }
+        .big-bold {
+          color: #3A93FC;
+          font-weight: 520;
+        }
+        .center-header h2 {
+          text-align: center;
+          color: #747474;
+        }
         .op-header .content {
             text-align: center;
-            margin-top:-459px;
+            margin-top:-440px;
             /* background-size: cover;
             background-repeat: no-repeat; */
             background-size: 107%;
