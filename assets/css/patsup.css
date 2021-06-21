@@ -328,6 +328,11 @@ p {
         .access .second a {
           text-decoration: none;
         }
+        .access .read-more {
+          margin-top: 10px;
+          font-size: 10pt !important;
+          color: #399dfc;
+        }
         .disease, .comm, .cust {
           max-width: 48%;
         }
@@ -341,7 +346,7 @@ p {
           font-weight: 520;
         }
         .first-banner {
-            margin-top:150px;
+            margin-top:170px;
             margin-bottom: 50px;
         }
         .first-banner h2 {
