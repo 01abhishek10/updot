@@ -383,6 +383,7 @@ p {
         }
         .footer .social {
           color: #0C73CF;
+          font-size: 12pt !important;
         }
         .footer .social-icons {
             width: 2%;
