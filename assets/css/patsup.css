@@ -320,6 +320,9 @@ p {
           text-align: center;
         }
         .access .second h4 {
+          color: #872087;
+          font-size: 15pt !important;
+          font-weight: 520;
           margin-top:30px;
         }
         .access .second a {
@@ -343,7 +346,7 @@ p {
         }
         .first-banner h2 {
           margin-top: 32%;
-          margin-left: 33%;
+          margin-left: 25%;
         }
         .first-ban {
           max-width: 100%;
