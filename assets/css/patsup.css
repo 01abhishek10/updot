@@ -257,7 +257,7 @@ p {
         }
         .op-header .content {
             text-align: center;
-            margin-top:-180px;
+            margin-top:-429px;
             /* background-size: cover;
             background-repeat: no-repeat; */
             background-size: 107%;
@@ -267,6 +267,7 @@ p {
         .op-header .overlay-text {
             font-size: 50pt;
             color: #872087;
+            font-weight: 520;
         }
         .op-header .overlay-para {
             font-size: 12pt;
@@ -320,7 +321,7 @@ p {
         }
         .ban-text {
           /* font-size: 29pt !important; */
-          color: #0e74d0;
+          color: #3A9EFD;
           font-weight: 520;
         }
         .first-banner {
@@ -352,7 +353,7 @@ p {
         }
         .third-banner h2 {
           margin-top: 32%;
-          margin-left: 33%;
+          margin-left: 21%;
         }
         .footer .social-icons {
             width: 4%;
