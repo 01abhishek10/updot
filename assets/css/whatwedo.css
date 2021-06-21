@@ -162,10 +162,38 @@
     margin-top: -16px;
     background-repeat: no-repeat;
     }
+    .sheik-desktop {
+      display: none;
+    }
 }
 
+p {
+  color: #747474;
+  font-size: 12pt;
+}
+
+h2 {
+  color: #872087;
+    font-weight: bold;
+    font-size: 1.2rem !important;
+}
+#myBtn {
+  text-decoration: none;
+  color: #F1C154;
+}
+#myBtn:hover {
+  cursor: pointer;
+  
+}
+#more {display: none;}
 
 @media (min-width:992px){
+  p {
+    font-size: 10pt !important;
+  }
+  .sheik-mobile {
+    display: none;
+  }
   .menu-btn {
     margin-left: 64px;
     margin-top: -8%;
@@ -257,12 +285,192 @@
         background-color: #fbfbfd;
     }
     .early-access .ea-icon {
-        margin-left: 50px;
-    width: 49%;
-    padding-top: 123px;
+      margin-left: 162px;
+      width: 49%;
+      padding-top: 94px;
     }
     .early-access h2 {
         font-size: 1.4rem;
     padding-top: 83px;
     }
-}
+    .early-access .second {
+      margin-bottom: 68px;
+    }
+    .medical {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    .medical .medical-img{
+      max-width: 94%;
+    }
+    .medical h2 {
+      margin: 25px 0px 25px 0px
+    }
+    .medical-icon {
+      width: 42%;
+      margin-top: 12px;
+    }
+    .medical-text {
+      margin-right: 63px;
+    }
+    .regulatory .container {
+      background-color: #fbfbfd;
+    }
+    .regulatory .second {
+      padding-top:80px;
+    }
+    .regulatory .row {
+      padding-bottom: 91px;
+    }
+    .reg-img {
+      margin-top: 106px;
+      max-width: 69%;
+      margin-left: 89px;
+    }
+    .commerce {
+      margin-top: 80px;
+      margin-bottom: 90px;
+    }
+    .commerce h2 {
+      margin: 34px 0px 20px 0px;
+    }
+    .commerce .com-icon {
+      width: 36%;
+    }
+    .commerce .com-img {
+      max-width: 100%;
+    }
+    .commerce .first {
+      padding-right: 60px;
+    }
+    .logistics {
+      margin-top:80px;
+      margin-bottom: 80px;
+    }
+    .logistics .container {
+        background-color: #fbfbfd;
+    }
+    .logistics .log-img {
+      margin-top: 106px;
+    max-width: 69%;
+    margin-left: 81px;
+    }
+    .logistics .second {
+      padding-top: 80px;
+    }
+    .logistics .row {
+      padding-bottom: 91px;
+    }
+    .pharma {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    .pharma .pharma-img {
+      max-width: 94%;
+    }
+    .pharma .pharma-icon {
+      width: 42%;
+      margin-top: 12px;
+    }
+    .pharma h2 {
+      margin: 25px 0px 25px 0px;
+    }
+    .quality {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+    .quality .container {
+      background-color: #fbfbfd;
+    }
+    .quality .row {
+      padding-bottom: 91px;
+    }
+    .quality .second {
+      padding-top: 80px;
+    }
+    .quality .qual-icon {
+      margin-top: 106px;
+    max-width: 69%;
+    margin-left: 81px;
+    }
+    /* .pharma-text {
+      margin-right: 23px
+    } */
+    .footer .social-icons {
+      width: 4%;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .footer .bg-image div {
+      margin-bottom: 30px;
+    }
+    .footer .bg-image {
+      background-image: url('../img/whatwefoot.png');
+    }
+    .footer .col-lg-6 {
+      margin-bottom: 73px;
+    }
+    /* .footer {
+      margin-top: 56px;
+    } */
+    .footer .bg-image {
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .footer .bg-second {
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .healthcarefooter {
+      width: 20%;
+      margin-left: 10px;
+    }
+    .footer-btn {
+      text-decoration: none;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 80px;
+padding-right: 85px;
+margin-left: 100px;
+background-color: #a8e2fb;
+color: #872087;
+border-radius: 0px 34px 0px 34px;
+    }
+    .footer .outbtn {
+      background-color: transparent;
+      border: none;
+      margin-top:-89px;
+    }
+    .footer-line {
+      height: 70%;
+      margin-top: -95px;
+    }
+    .footer .footer-links {
+      display: inline-block;
+      margin-top: 50px;
+    }
+    .footer .footer-links li {
+      list-style: none;
+        font-weight: bold;
+        color: #0e74d0;
+    }
+    .accessrare {
+      width: 25%;
+      margin-top: 105px;
+      margin-left: 100px;
+  }
+  .footer p {
+    margin-top: 47px;
+    margin-bottom: 40px;
+    margin-left: 104px;
+  }
+  }
+
+  @media (min-width:1200px){
+    p {
+      font-size: 15pt !important;
+    }
+    #myBtn {
+      font-size: 15pt !important;
+    }
+  }
